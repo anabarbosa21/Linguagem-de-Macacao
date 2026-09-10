@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Exmplo 1 </title>
+	</head>
+	<body>
+		<!-- table -> tabela -->
+		<!-- Iniciando a tabela -->
+		<table border="1" width="100%">
+			<!-- thead -> table head -> cabeçalho da tabela -->
+			<thead  style="background-color: blue; color: #FFF;">
+				<!-- criando a primera linha -->
+				<!-- linha da tabela -> tabela row -> tr -->
+				<tr>
+					<!-- th -> table head -> cabeçalho -->
+					<th>Disciplina</th>
+					<th>Nota 1</th>
+					<th>Nota 2</th>
+					<th>Nota 3</th>
+					<th>Nota 4</th>
+					<th>Média</th>
+				</tr>
+			</thead>
+				<!-- tbody -> table tbody -> copo da tabela -->
+			<tbody>
+				<!-- criando a segunda linha -->
+				<!-- linha da tabela -> tabela row -> tr -->
+				<tr>
+					<!-- td -> table data -> dados da tabela -->
+					<td>Matematica</td>
+					<td>10,0</td>
+					<td>9,0</td>
+					<td>8,0</td>
+					<td>7,0</td>
+					<td>8,5</td>
+				</tr>
+				<!-- criando a terceira linha -->
+				<!-- linha da tabela -> tabela row -> tr -->
+				<tr>
+					<td>Portugues</td>
+					<td>9,5</td>
+					<td>10,0</td>
+					<td>8,0</td>
+					<td>8,5</td>
+					<td>9,0</td>
+				</tr>
+				
+				<!-- criando a quanta linha -->
+				<tr>
+				<!-- COLSPAN -> mesclar coluna-->
+					<th style="background-color: red; color: #FFF;"colspan="6">SENAI</th>
+				</tr>
+				<!-- criando a quinta linha -->
+				<tr>
+					<th>Diciplina</th>
+					<th colspan="2">1° Semestre</th>
+					<th colspan="2">2° Semestre</th>
+					<th>Média</th>
+				</tr>
+				
+				<!-- criando a sexta linha -->
+				<tr>
+					<td>Lógica de programação</td>
+					<td>9,0</td>
+					<td>9,0</td>
+					<!-- rowspan -> mesclar linha -->
+					<td rowspan="2">-</td>
+					<td rowspan="2">-</td>
+					<td>9,0</td>
+				</tr>
+				
+				<!-- criando a sétima linha -->
+				<tr>
+					<td>Levantamerto de Requisitos</td>
+					<td>9,0</td>
+					<td>8,0</td>
+					<!-- Termos que apager as linhas que serão mescladas-->
+					<!--<td>-</td> -->
+					<!--<td>-</td> -->
+					<td>8,5</td>
+				</tr>
+				
+				<!-- criando a oitava linha -->
+				<tr>
+					<td>Banco de Dasdos</td>
+					<!-- rowsplan -> mesclar linha -->
+					<td rowspan="2">-</td>
+					<td rowspan="2">-</td>
+					<td>8,0</td>
+					<td>10,0</td>
+					<td>9,0</td>
+				</tr>
+				
+				<!-- criando a nona linha -->
+				<tr>
+					<td>Linguagem de Marcação</td>
+					<!--<td>-</td>-->
+					<!--<td>-</td>-->
+					<td>10,0</td>
+					<td>10,0</td>
+					<td>10,0</td>
+				</tr>
+				
+				<!-- criando a decima linha -->
+				<tr style="background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p1/2173503-abstrato-azul-listrado-linha-serrilhada-padrao-sobre-fundo-branco-e-textura-vetor.jpg');">
+					<th colspan="5">Média Total</th>
+					<th>9,0</th>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
