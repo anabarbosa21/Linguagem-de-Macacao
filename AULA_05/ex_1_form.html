@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>tabela</title>
+	</head>
+	<body>
+		<header>
+			
+		</header>
+		
+		<form action="#" method="POST">
+			<label for="nome">Código </label>
+			<input type="number" >
+			<hr>
+			
+			<label for="contrato">N° do Contrato</label>
+			<input type="number">
+			<label for="loja">N° da Loja</label>
+			<input type="number">
+			<hr>
+			
+			<label for="descricao">Descrição</label>
+			<input type="nome">
+			<hr>
+			<label for="data">Data</label>
+			<input type="date">
+			<hr>
+			
+			<label for="turma">Operadora</label>
+			<select  name="nome" id="nome">
+				<option value="selesone"></option>
+				<option value="virtuais">virtuais</option>
+				<option value="regionais">regionais </option>
+				<option value="Algar Telecom">Algar Telecom</option>
+				
+			</select>
+			<br><br>
+			
+			<label for="filial">Filial</label>
+			<select  name="nome" id="nome">
+				<option value="selesone"></option>
+				<option value="sede principal">sede principal</option>
+				<option value="estabelecimento ">estabelecimento</option>
+				<option value="administrativas"> administrativas</option>
+			</select>
+			<br><br>
+			
+			<label for="Empresa Matriz">Empresa Matriz</label>
+			<select  name="nome" id="nome">
+				<option value="selesone"></option>
+				<option value="contabilidade financeira">contabilidade financeira</option>
+				<option value=" contabilidade gerencial "> contabilidade gerencial  </option>
+				<option value=" contabilidade de custos"> contabilidade de custos</option>
+			</select>
+			<hr>
+			<label for="Origem das Contas Contabeis">Origem das Contas Contabeis</label>
+			<select  name="nome" id="nome">
+				<option value="selesone"></option>
+				<option value="contabilidade financeira">contrato</option>
+			</select>
+			<input type="radio" id="nome" name="arquivos" value="arquivos"required>Depósito na conta informada no arquivo
+			<hr>
+			<label for="Origem das Contas Contabeis">Status do Contrato</label>
+			<select  name="nome" id="nome">
+				<option value="selesone"></option>
+				<option value="contabilidade financeira">Ativo</option>
+			</select>
+			<input type="radio" id="nome" name="arquivos" value="arquivos"required>Conciliação Consolidada 
+			<form action="#" method="POST">
+			<label for="nome">Permitir concilial manualmente quando há variação de até </label>
+			<input type="text" id="ra" name="ra" value="00,00" disabled>
+			<hr>
+			<label for="Origem das Contas Contabeis">Identificar Comprovante por</label>
+			<select  name="nome" id="nome">
+				<option value="selesone"></option>
+				<option value="contabilidade financeira">Número da Autorização</option>
+			</select>
+			<input type="radio" id="nome" name="arquivos" value="arquivos"required>Removerzeros esquerda do N°Comprovante
+			<input type="radio" id="nome" name="arquivos" value="arquivos"required>Validar valores na conciliação automática
+			<hr>
+		<input type="radio" id="nome" name="arquivos" value="arquivos"required>Usar campo de usuario[Data da Transaçõa do Cartão]do Contas a Receber para idenficar o comprovante na conciliação
+		<br>
+		<input type="radio" id="nome" name="arquivos" value="arquivos"required>Gerar Conta a Receber por Conta para comprovantes não identificados
+		<input type="radio" id="nome" name="arquivos" value="arquivos"required>Contas a Receber Agrupado
+		<br>
+		<input type="radio" id="nome" name="arquivos" value="arquivos"required>usar projeto do Cadastro de Equipamento 
+		<input type="radio" id="nome" name="arquivos" value="arquivos"required>LCM Agrupado de Comprovante de Cartão
+		<br>
+		<label for="nome">Cartão </label>
+			<input type="text" id="ra" name="ra" value="Não Informado" disabled>
+		<hr>
+			<label for="nome">Forma de Pagamento </label>
+			<input type="text" id="ra" name="ra" value="Não Informado" disabled>
+		<hr>
+			<label for="">Conta de provisão</label>
+<input type="numero" id="numero_conta_provisao" name="numero_conta_provisao">
+<input type="text" id="desc_conta_provisao" name="desc_conta_provisao">
+<br>
+<label for="">Conta do banco</label>
+<input type="numero" id="numero_conta_banco" name="numero_conta_banco">
+<input type="text" id="desc_conta_banco" name="desc_conta_banco">
+<br>
+<label for="">Conta para comissão</label>
+<input type="numero" id="numero_conta_comissao" name="numero_conta_comissao">
+<input type="text" id="desc_conta_comissao" name="desc_conta_comissao">
+<br>
+<label for="">Conta para cancelamento</label>
+<input type="numero" id="numero_conta_cancelamento" name="numero_conta_cancelamento">
+<input type="text" id="desc_conta_cancelamento" name="desc_conta_cancelamento">
+<br>
+<label for="">Conta de antecipação</label>
+<input type="numero" id="numero_conta_antecipacao" name="numero_conta_antecipacao">
+<input type="text" id="desc_conta_antecipacao" name="desc_conta_antecipacao">
+<br>
+<label for="">Conta de ajuste a debito</label>
+<input type="numero" id="numero_conta_ajuste_debito" name="numero_conta_ajuste_debito">
+<input type="text" id="desc_conta_ajuste_debito" name="desc_conta_ajuste_debito">
+<br>
+<label for="">Conta de ajuste a credito</label>
+<input type="numero" id="numero_conta_ajuste_credito" name="numero_conta_ajuste_credito">
+<input type="text" id="desc_conta_ajuste_credito" name="desc_conta_ajuste_credito">
+<br>
+<label for="">Conta de despesas de aluguel</label>
+<input type="numero" id="numero_conta_despesas_aluguel" name="numero_conta_despesas_aluguel">
+<input type="text" id="desc_conta_despesas_aluguel" name="desc_conta_despesas_aluguel">
+<br>
+<label for="">Conta de compensação</label>
+<input type="numero" id="numero_conta_compensacao" name="numero_conta_compensacao">
+<input type="text" id="desc_conta_compensacao" name="desc_conta_compensacao">
+	<hr>
+<input type="submit" value="Inserir">	
+	<input type="submit" value="Cancelar">	
+<input type="submit" value="Log">	
+			
+		</form>
+	</body>
+</html>
